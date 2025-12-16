@@ -1,6 +1,6 @@
 # MSSVA Day 4 - Security Investigation Report
 
-## Software Security Lab — HPRCSE
+## Software Security Lab 
 **Role:** Security Researcher  
 **Investigation Target:** dataproc-agent  
 **Date:** December 16, 2025
