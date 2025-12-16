@@ -86,5 +86,3 @@ READ of size N at 0xXXXX thread T0
 [INSTRUMENT] Memory leak detected: out buffer not freed for record index 1
 ```
 
-## Author
-Security Researcher - Software Security Lab, HPRCSE
