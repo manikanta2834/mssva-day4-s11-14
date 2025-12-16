@@ -21,26 +21,7 @@ The `dataproc-agent` has a basic telemetry framework (`telemetry.c`) but signifi
 | `sec_warn(msg)` | Log warning message | 1 |
 | `sec_info(msg)` | Log informational message | 1 |
 
-### 1.2 Current Telemetry Coverage
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                        TELEMETRY COVERAGE MAP                       │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│  main.c          [░░░░░░░░░░░░░░░░░░░░]  0%   ❌ No telemetry      │
-│  parser.c        [████░░░░░░░░░░░░░░░░]  20%  ⚠️ Partial           │
-│  record.c        [██░░░░░░░░░░░░░░░░░░]  10%  ⚠️ Partial           │
-│  memory.c        [░░░░░░░░░░░░░░░░░░░░]  0%   ❌ No telemetry      │
-│  config.c        [████░░░░░░░░░░░░░░░░]  20%  ⚠️ Partial           │
-│  validate.c      [░░░░░░░░░░░░░░░░░░░░]  0%   ❌ No telemetry      │
-│  stats.c         [░░░░░░░░░░░░░░░░░░░░]  0%   ❌ N/A (stats only)  │
-│  utils.c         [░░░░░░░░░░░░░░░░░░░░]  0%   ❌ No telemetry      │
-│                                                                     │
-│  OVERALL         [██░░░░░░░░░░░░░░░░░░]  8%   ❌ CRITICAL GAP      │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-```
 
 ---
 
