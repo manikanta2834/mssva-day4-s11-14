@@ -54,4 +54,4 @@ READ of size 11 at 0x602000000010 thread T0
 
 ## 4. Artifacts
 
-Crash inputs located in `evidence/fuzzing/`
+Crash inputs located in evidence/fuzzing/
