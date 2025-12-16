@@ -87,4 +87,4 @@ dataproc-agent starting...
 [SEC]flags:255
 ```
 
-**Finding:** Garbage values processed without error indication
+**Finding:** Garbage values processed without error indication.
